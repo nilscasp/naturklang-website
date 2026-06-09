@@ -225,7 +225,11 @@ footer a:hover { opacity:1; color:var(--c-accent); }
 /* ---------- Termine ---------- */
 .termine { background:var(--c-bg-soft); }
 .termine .list { max-width:760px; margin:0 auto; display:flex; flex-direction:column; gap:16px; }
-.termin { display:flex; gap:24px; align-items:center; background:var(--c-card); border:1px solid var(--c-line); border-radius:16px; padding:22px 26px; box-shadow:0 10px 30px rgba(0,0,0,.04); }
+.termin { display:flex; gap:24px; align-items:flex-start; background:var(--c-card); border:1px solid var(--c-line); border-radius:16px; padding:24px 28px; box-shadow:0 10px 30px rgba(0,0,0,.04); }
+.termin .date { padding-top:2px; }
+.termin .info .beitrag { margin-top:10px; font-family:'Cinzel',serif; font-size:13px; color:var(--c-green); letter-spacing:.02em; }
+.termin .info .beitrag a { color:var(--c-brand); border-bottom:1px solid var(--c-accent); padding-bottom:1px; margin-left:14px; }
+.termin .info .beitrag a:hover { color:var(--c-brand-dk); }
 .termin .date { font-family:'Cinzel',serif; color:var(--c-brand); text-align:center; min-width:66px; line-height:1.1; }
 .termin .date .d { font-size:27px; display:block; }
 .termin .date .m { font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--c-accent); }
@@ -476,21 +480,47 @@ body.no-scroll { overflow:hidden; }
     </div>
     <div class="list">
       <div class="termin">
-        <div class="date"><span class="d">—</span><span class="m">bald</span></div>
+        <div class="date"><span class="d">21</span><span class="m">Juni</span></div>
         <div class="info">
-          <h4>Frühlings-Kräuterwanderung</h4>
-          <p>Ein achtsamer Gang durch die erwachende Natur – die ersten Heilkräuter entdecken und mit allen Sinnen spüren.</p>
+          <h4>Litha – Sommersonnenwende</h4>
+          <p>Ein Fest des Lichts, der Fülle und der Lebensfreude – voller Wärme, Dankbarkeit und magischer Momente. Halte inne und feiere das Leben im Rhythmus der Natur. <em>Ort wird bekanntgegeben.</em></p>
+          <div class="beitrag">Beitrag: 45 € <a href="mailto:lisa@naturklang.net?subject=Anmeldung%3A%20Litha%20%E2%80%93%20Sommersonnenwende">Anfragen &rarr;</a></div>
         </div>
       </div>
       <div class="termin">
-        <div class="date"><span class="d">—</span><span class="m">bald</span></div>
+        <div class="date"><span class="d">01</span><span class="m">Aug</span></div>
         <div class="info">
-          <h4>Jahreskreisfest</h4>
-          <p>Den Wandel der Jahreszeiten bewusst feiern – in Ritual, Stille und Gemeinschaft.</p>
+          <h4>Lughnasad – erstes Erntedank</h4>
+          <p>Ein Fest der Dankbarkeit und Reife. Wir feiern, was gewachsen ist, und lassen los, was vollendet ist – ein Moment der Fülle, Klarheit und des bewussten Innehaltens. <em>Ort wird bekanntgegeben.</em></p>
+          <div class="beitrag">Beitrag: 45 € <a href="mailto:lisa@naturklang.net?subject=Anmeldung%3A%20Lughnasad">Anfragen &rarr;</a></div>
+        </div>
+      </div>
+      <div class="termin">
+        <div class="date"><span class="d">20</span><span class="m">Sep</span></div>
+        <div class="info">
+          <h4>Mabon – Herbst Tag- und Nachtgleiche</h4>
+          <p>Im Gleichgewicht von Licht und Dunkelheit lädt Mabon zum Innehalten ein. Wir feiern die zweite Ernte, Dankbarkeit und Balance – und bereiten uns achtsam auf die stille Zeit des Jahres vor. <em>Ort wird bekanntgegeben.</em></p>
+          <div class="beitrag">Beitrag: 45 € <a href="mailto:lisa@naturklang.net?subject=Anmeldung%3A%20Mabon">Anfragen &rarr;</a></div>
+        </div>
+      </div>
+      <div class="termin">
+        <div class="date"><span class="d">31</span><span class="m">Okt</span></div>
+        <div class="info">
+          <h4>Samhain – keltisches Neujahr</h4>
+          <p>Das Jahr tritt in die Dunkelheit ein und der Wandel wird spürbar. Ein Fest des Abschieds, des Gedenkens und des bewussten Loslassens – Zeit, Altes zu ehren und Raum für Neues entstehen zu lassen. <em>Ort wird bekanntgegeben.</em></p>
+          <div class="beitrag">Beitrag: 45 € <a href="mailto:lisa@naturklang.net?subject=Anmeldung%3A%20Samhain">Anfragen &rarr;</a></div>
+        </div>
+      </div>
+      <div class="termin">
+        <div class="date"><span class="d">20</span><span class="m">Dez</span></div>
+        <div class="info">
+          <h4>Yul – Wintersonnenwende &amp; Rauhnacht</h4>
+          <p>Wenn in der längsten Nacht das Licht neu geboren wird, beginnt Yul. Eine Zeit der Stille und des Innehaltens, die in die Rauhnächte führt – ein Raum zwischen den Jahren für Rückschau und leise Neubeginne. <em>Ort wird bekanntgegeben.</em></p>
+          <div class="beitrag">Beitrag: 55 € <a href="mailto:lisa@naturklang.net?subject=Anmeldung%3A%20Yul%20%E2%80%93%20Wintersonnenwende">Anfragen &rarr;</a></div>
         </div>
       </div>
     </div>
-    <p class="hint">Aktuelle Termine werden hier laufend ergänzt. Schreib mir gerne für die nächsten Daten: <a href="mailto:lisa@naturklang.net?subject=Termine">lisa@naturklang.net</a></p>
+    <p class="hint">Gerne biete ich auch private Kräuterwanderungen an – <a href="mailto:lisa@naturklang.net?subject=Private%20Kr%C3%A4uterwanderung">schreib mir einfach</a>.</p>
   </div>
 </section>
 
